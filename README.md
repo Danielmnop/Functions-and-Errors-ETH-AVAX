@@ -4,7 +4,13 @@ This Solidity program is a "Money Lending" smart contract. This program uses the
 ## Description
 This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain.
 
-## Getting Started
+## Getting Started  
+### How to run this program?
+To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+
+Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., Loan.sol). Copy and paste the following code into the file:
+
+```
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.25;
@@ -46,10 +52,9 @@ contract getLoan {
     revert("Loan has been cancelled.");
     }
   }
-### How to run this program?
-To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+```
 
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., Loan.sol). Copy and paste the following code into the file:
+
 
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.25" (or another compatible version), and then click on the "Compile Loan.sol" button.
 
